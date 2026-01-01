@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication & User Management Service", "Authentication & User Management Service\Authentication & User Management Service.csproj", "{380AB7E0-7DC1-4C47-9AFD-AC7E27857ECB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Domain", "AuthService.Domain\AuthService.Domain.csproj", "{9C15BAE0-1A04-45FB-A8CA-840D65ED613C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{380AB7E0-7DC1-4C47-9AFD-AC7E27857ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{380AB7E0-7DC1-4C47-9AFD-AC7E27857ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{380AB7E0-7DC1-4C47-9AFD-AC7E27857ECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C15BAE0-1A04-45FB-A8CA-840D65ED613C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C15BAE0-1A04-45FB-A8CA-840D65ED613C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C15BAE0-1A04-45FB-A8CA-840D65ED613C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C15BAE0-1A04-45FB-A8CA-840D65ED613C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
