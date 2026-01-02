@@ -13,5 +13,6 @@ namespace AuthService.Domain.Entities
         public string PassordHash { get; set; } = null!;
         public bool IsActive { get; set; } = true;
         public DateTime CreatedAt { get; set; }
+        public ICollection<Role> Roles { get; set; }    
     }
 }
